@@ -1,0 +1,49 @@
+.notification{
+    background: white;
+    color: rgb(14, 10, 10);
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.notifications{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 2vh;
+}
+.notification-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(207, 207, 178);
+    width: 50%;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.notification-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.notification-content-icon{
+    width: 40px;
+    height: 40px;
+}
+.notification-content-icon i{
+    line-height: 40px;
+    font-size: 40px;
+}
+.notification-content-text{
+    width: 100%;
+    padding-left: 20px;
+}

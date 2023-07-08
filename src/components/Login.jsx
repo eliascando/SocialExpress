@@ -40,6 +40,7 @@ export const LogIn = () => {
 
   return (
     <div className="componente-login">
+      <div className="contenido-login">
         <h1>Bienvenido</h1>
         <form className="formulario-login" onSubmit={(e)=>{login(e)}}>
             <input type="text" placeholder="Correo electrónico" className="input-correo-login"/>
@@ -52,6 +53,7 @@ export const LogIn = () => {
             Registrate
           </NavLink>
         </div>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,88 @@
+.feed-user{
+    background: white;
+    color: rgb(14, 10, 10);
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 2vh;
+}
+.post-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(207, 207, 178);
+    width: 50%;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.post-card .post-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.post-card .user-avatar{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+.post-card .user-avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.post-card .user-name{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.post-card .user-name h3{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+}
+.post-content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.post-content .post-content-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.post-content .post-content-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.post-content .post-content-image img{
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    /*TODO: HACER QUE CUANDO SE DE CLICK EN LA IMAGEN SE MUESTRE UN MODAL CON LA IMAGEN COMPLETA*/
+}
