@@ -1,0 +1,6 @@
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(111, 111, 160);
+}
