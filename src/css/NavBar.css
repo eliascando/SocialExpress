@@ -17,12 +17,11 @@
     font-size: 30px;
     margin: 0 20px;
     font-weight: 500;
-}
-.nav-bar .social-express:hover{
-    color: rgb(212, 33, 9);
+    user-select: none;
 }
 
-.boton-notificaciones{
+.boton-notificaciones,
+.boton-postear{
     border-radius: 50px;
     background: none;
     margin: 10px;
@@ -35,8 +34,12 @@
     cursor: pointer;
     font-size: 25px;
 }
+.boton-postear{
+    right: 10vw;
+}
 
-.boton-notificaciones:hover{
+.boton-notificaciones:hover,
+.boton-postear:hover{
     color: rgb(212, 33, 9);
 }
 
@@ -53,6 +56,10 @@
     outline: none;
     border: none;
     color: white;
+    padding-left: 15px;
+}
+.input-buscar::placeholder{
+  color: white;
 }
 
 .dropdown-menu ul li{
@@ -119,7 +126,7 @@
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
-    background-color: #fff;
+    background-color: none;
   }
   
   .dropdown-menu{

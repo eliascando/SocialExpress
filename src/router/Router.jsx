@@ -9,11 +9,12 @@ import { Feed } from '../components/app/Feed'
 import { Settings } from '../components/app/Settings'
 
 export const Router = () => {
+
   return (
     <div className='main'>
       <BrowserRouter>
           <Routes>
-              <Route path='/' element={<LogIn />}/>
+              <Route path='/' element={<Navigate to='/login'/>}/>
               <Route path='/login' element={<LogIn />}/>
               <Route path='/signup' element={<SingUp />}/>
               <Route path='/home' element={<Home />}>
@@ -26,9 +27,6 @@ export const Router = () => {
               <Route path='*' element={<h1>404</h1>}/>        
           </Routes>
       </BrowserRouter>
-      <div className='boton-messages-div fixed-boton-messages'>
-        <button className='boton-messages'><i className="bi bi-chat-right-text-fill"></i></button>
-      </div>
     </div>
   )
 }

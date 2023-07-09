@@ -2,7 +2,6 @@ import { Router } from './router/Router'
 import './App.css'
 import { UserContext } from './contexts/UserContext'
 import { useEffect, useState } from 'react'
-import { SideContentInicio } from './components/layout/SideContentInicio'
 
 function App() {
 
@@ -29,8 +28,7 @@ function App() {
   }, [darkMode])
 
   return (
-    <div className={`layout ${user._id? 'display-user-page':''}`}>
-      {!user._id?(<SideContentInicio />):null}
+    <div className='layout'>
         <UserContext.Provider value={{
           user, setUser,
           token, setToken,

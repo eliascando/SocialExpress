@@ -30,7 +30,7 @@ export const DropDownMenu = () => {
           <ul>
             <DropdownItem img={'bi bi-person'} text={'Perfil'} funcion={()=>{navigate('/home/profile')}}/>
             <DropdownItem img={'bi bi-gear-fill'} text={'Ajustes'}funcion={()=>{navigate('/home/settings')}}/>
-            <DropdownItem img={'bi bi-box-arrow-right'} text={'Salir'}/>
+            <DropdownItem img={'bi bi-box-arrow-right'} text={'Salir'} funcion={()=>{localStorage.clear(); navigate('/')}}/>
           </ul>
         </div>
       </div>
