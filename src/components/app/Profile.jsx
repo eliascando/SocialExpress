@@ -4,32 +4,39 @@ export const Profile = () => {
   return (
     <div className='profile'>
         <div className='profile-info'>
-          <div className='avatar'>
-            <img src='https://picsum.photos/200' alt='avatar'></img>
-          </div>
-          <div className='data'>
-            <div className='user-info'>
-              <h3>Nombre de usuario</h3>
-              <p>Bio Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div className='profile-info-content'>
+            <div className='avatar'>
+              <img src='https://picsum.photos/200' alt='avatar'></img>
             </div>
-          </div>
-          <div className='follows-followers-posts'>
-              <table className='table-info'>
-                <thead>
-                  <tr>
-                    <th>Seguidos</th>
-                    <th>Seguidores</th>
-                    <th>Posts</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>12</td>
-                    <td>5</td>
-                    <td>10</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className='info-content-data'>
+              <div className='data'>
+                <div className='user-name'>
+                  <h2>Pepe Perez Vidal</h2>
+                  <h3>@pepeperez</h3>
+                </div>
+                <div className='user-bio'>
+                  <p>Bio Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div className='follows-followers-posts'>
+                  <table className='table-info'>
+                    <thead>
+                      <tr>
+                        <th id='seguidos'>Seguidos</th>
+                        <th id='seguidores'>Seguidores</th>
+                        <th id='posts'>Posts</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>12</td>
+                        <td>5</td>
+                        <td>10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
           </div>
         </div>
         <div className='profile-posts'>
