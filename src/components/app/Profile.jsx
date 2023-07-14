@@ -29,9 +29,9 @@ export const Profile = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>12</td>
+                        <td id='seguidos-cant'>12</td>
                         <td>5</td>
-                        <td>10</td>
+                        <td id='posts-cant'>10</td>
                       </tr>
                     </tbody>
                   </table>
@@ -40,17 +40,17 @@ export const Profile = () => {
           </div>
         </div>
         <div className='profile-posts'>
-           <div className='post-card'>
+           <div className='post-card-user'>
                 <div className='post-header'>
                     <div className='user-avatar'>
                         <img src='https://picsum.photos/200' alt='avatar' />
                     </div>
                     <div className='user-name'>
-                        <h3>Nombre de usuario</h3>
+                        <h3>@pepeperez</h3>
                     </div>
                 </div>
-                <div className='post-content'>
-                    <div className='post-content-text'>
+                <div className='post-content-user'>
+                    <div className='post-text'>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                     </div>
                 </div>
